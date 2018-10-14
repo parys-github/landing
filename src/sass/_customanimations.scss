@@ -1,0 +1,90 @@
+@keyframes scrollanimation {
+    0%   { height: 5px; }
+    50%	 { height: 24px; }
+    100% { height: 5px; }
+}
+
+@keyframes pulse {
+    from {transform: scale(1);
+  }
+    to {transform: scale(1.22);
+  }
+}
+/*
+$transition2: .45s 1 $transition;
+
+.animation {
+	@include opacity(0);
+	@include translate3d(0,0,0);
+	@include perspective(1000);
+	will-change: opacity;
+	@include max-break($break-large) {
+		@include opacity(1);
+	}
+}
+.animate {
+	will-change: opacity, transform;
+}
+.fade-in.animate {
+	@include animation(fade-in $transition2);
+	@include max-break($break-large) {
+		@include animation(none);
+	}
+}
+.right-to-left.animate {
+	@include animation(right-to-left $transition2);
+	@include max-break($break-large) {
+		@include animation(none);
+	}
+}
+.left-to-right.animate {
+	@include animation(left-to-right $transition2);
+	@include max-break($break-large) {
+		@include animation(none);
+	}
+}
+.bottom-to-top.animate {
+	@include animation(bottom-to-top $transition2);
+	@include max-break($break-large) {
+		@include animation(none);
+	}
+}
+.top-to-bottom.animate {
+	@include animation(top-to-bottom $transition2);
+	@include max-break($break-large) {
+		@include animation(none);
+	}
+}
+.scale.animate {
+	@include animation(scale $transition2);
+	@include max-break($break-large) {
+		@include animation(none);
+	}
+}
+.animate {
+	@include opacity(1);
+}
+@include keyframes(fade-in) {
+    0%   {@include opacity(0);}
+    100% {@include opacity(1);}
+}
+@include keyframes(right-to-left) {
+    0%   {@include opacity(0); @include translateX(50px);}
+    100% {@include opacity(1); @include translateX(0px);}
+}
+@include keyframes(left-to-right) {
+    0%   {@include opacity(0); @include translateX(-50px);}
+    100% {@include opacity(1); @include translateX(0px);}
+}
+@include keyframes(bottom-to-top) {
+    0%   {@include opacity(0); @include translateY(50px);}
+    100% {@include opacity(1); @include translateY(0px);}
+}
+@include keyframes(top-to-bottom) {
+    0%   {@include opacity(0); @include translateY(-50px);}
+    100% {@include opacity(1); @include translateY(0px);}
+}
+@include keyframes(scale) {
+    0%   {@include opacity(0); @include scale(0);}
+    100% {@include opacity(1); @include scale(1);}
+}*/

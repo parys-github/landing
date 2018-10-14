@@ -1,0 +1,14 @@
+// Vendors style importing
+
+// @import "vendors/_animate.scss";
+@import "vendors/swiper";
+@import "vendors/aos";
+@import "vendors/iziModal";
+@import "vendors/normalize";
+// Landing custom style
+@import "variables";
+@import "customanimations";
+@import "global";
+@import "mobile";
+@import "modals";
+@import "swiper";

@@ -1,0 +1,99 @@
+/* SWIPER CUSTOM STYLE */
+
+body {
+  .parts {
+    .swiper-container {
+      background: #272624;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+      background: none !important;
+      width: 32px;
+      height: 61px;
+      margin-top: -30px;
+      outline: none;
+    }
+
+    .swiper-button-prev {
+      left: 20px;
+    }
+
+    .swiper-button-next {
+      right: 20px;
+    }
+    .swiper-container {
+      .swiper-button-prev svg, .swiper-button-next svg {
+        width: 100%;
+      }
+      .swiper-button-prev svg:hover, .swiper-button-next svg:hover {
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.85));
+      }
+      .swiper-button-prev path, .swiper-button-next path {
+        transition: fill 500ms;
+      }
+      &.sc-blue-arrows {
+        .swiper-button-prev path, .swiper-button-next path {
+          fill: #272624;
+        }
+      }
+    }
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      margin: 0 10px !important;
+      background: none;
+      border: 2px solid white;
+      opacity: 1;
+      transition: background 500ms, border 500ms;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: white;
+    }
+
+    .swiper-pagination {
+      bottom: 50px !important;
+    }
+
+    .swiper-container.sc-blue-arrows {
+      .swiper-pagination-bullet {
+        border: 2px solid #272624;
+      }
+      .swiper-pagination-bullet-active {
+        background: #272624;
+      }
+    }
+
+    .swiper-button-prev .sb-right, .swiper-button-next .sb-left {
+      display: none;
+    }
+    .StyleAbout-1 {
+      .align {
+        a {
+          color: #262e3c;
+          &:hover {
+            color: #867426;
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  &.rtl{
+    .parts {
+      .swiper-button-next {
+        left: 20px;
+        right: auto;
+      }
+      .swiper-button-prev .sb-right, .swiper-button-next .sb-left {
+        display: block;
+      }
+      .swiper-button-prev .sb-left, .swiper-button-next .sb-right {
+        display: none;
+      }
+    }
+  }
+}

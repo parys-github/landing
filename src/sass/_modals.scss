@@ -1,0 +1,203 @@
+/* MODALS  Custom */
+
+body {
+  .iziModal {
+    .iziModal-button {
+      opacity: .5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .iziModal-header {
+      margin-right: -2px;
+    }
+    .iziModal-wrap {
+      .iziModal-content {
+        font-size: 14px;
+        padding: 30px 30px 20px !important;
+        ol {
+          padding-left: 15px;
+        }
+        ul {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  .iziModal-overlay {
+    background-color: rgba(39, 38, 36, 0.9) !important;
+  }
+  .iziModal ::-webkit-scrollbar {
+    width: 15px !important;
+  }
+}
+
+html {
+  body {
+    #modal-custom {
+      background-color: $dark;
+      .iziModal-wrap {
+        background-color: $dark;
+        padding: 0;
+        margin: 0;
+        .iziModal-content {
+          padding: 15px 10px 10px !important;
+          margin: 0;
+          height: auto;
+          .icon-close {
+            transition: $trans-def;
+            outline: none;
+            color: $dark;
+            font-size: 20px;
+            padding: 0 0 3px 1px;
+            margin: 0;
+            top: -20px;
+            right: -18px;
+            background-color: #e4e4e4;
+            &:hover {
+              background-color: #86847a;
+              color: white;
+            }
+          }
+          section {
+            background: #e4e4e4;
+            &.hyde {
+              opacity: 0;
+            }
+            footer {
+              transition: $trans-def;
+            }
+            input {
+              outline: none;
+              transition: $trans-def;
+              padding: 12px;
+              border: solid 2px transparent;
+              &:focus {
+                outline: none;
+                border: solid 2px $dark;
+              }
+            }
+            button {
+              background-color: #86847a;
+              transition: $trans-def;
+              &:nth-child(1) {
+                background-color: #b3b1a7;
+              }
+              &:hover {
+                background-color: $dark;
+              }
+            }
+            label[for=check] {
+              color: $dark;
+            }
+          }
+          header {
+            margin-bottom: 0;
+            a {
+              background: #58564b;
+              color: #f1f1f1;
+              font-size: 20px;
+              height: 60px;
+              line-height: 56px;
+              &.active {
+                color: $dark;
+                background-color: #e4e4e4;
+                cursor: default;
+                line-height: 60px;
+                &:hover {
+                  background-color: #e4e4e4;
+                }
+              }
+              &:hover {
+                background-color: #58564b;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #modal-custom {
+    background-color: $dark;
+    .iziModal-wrap {
+      background-color: $dark;
+      padding: 0;
+      margin: 0;
+      .iziModal-content {
+        padding: 15px 10px 10px !important;
+        margin: 0;
+        height: auto;
+        .icon-close {
+          transition: $trans-def;
+          outline: none;
+          color: $dark;
+          font-size: 20px;
+          padding: 0 0 3px 1px;
+          margin: 0;
+          top: -20px;
+          right: -18px;
+          background-color: #e4e4e4;
+          &:hover {
+            background-color: #86847a;
+            color: white;
+          }
+        }
+        section {
+          background: #e4e4e4;
+          &.hyde {
+            opacity: 0;
+          }
+          footer {
+            transition: $trans-def;
+          }
+          input {
+            outline: none;
+            transition: $trans-def;
+            padding: 12px;
+            border: solid 2px transparent;
+            &:focus {
+              outline: none;
+              border: solid 2px $dark;
+            }
+          }
+          button {
+            background-color: #86847a;
+            transition: $trans-def;
+            &:nth-child(1) {
+              background-color: #b3b1a7;
+            }
+            &:hover {
+              background-color: $dark;
+            }
+          }
+          label[for=check] {
+            color: $dark;
+          }
+        }
+        header {
+          margin-bottom: 0;
+          a {
+            background: #58564b;
+            color: #f1f1f1;
+            font-size: 20px;
+            height: 60px;
+            line-height: 56px;
+            text-decoration: none;
+            &.active {
+              color: $dark;
+              background-color: #e4e4e4;
+              cursor: default;
+              line-height: 60px;
+              &:hover {
+                background-color: #e4e4e4;
+              }
+            }
+            &:hover {
+              background-color: #79776b;
+            }
+          }
+        }
+      }
+    }
+  }
+}

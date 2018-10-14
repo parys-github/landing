@@ -1,0 +1,62 @@
+$PRIMARY_COLOR: #415d61;
+$SECONDARY_COLOR: #07717c;
+$THIRD_COLOR: #fd6115;
+$FOURTH_COLOR: #e02961;
+$PINK_COLOR: #e12963;
+$dark: #58564c;
+$yellow: #fbcd00;
+
+$FONT_MAIN: "Roboto Condensed", sans-serif;
+$FONT: "Roboto", sans-serif;
+
+$LIGHTER_GREY: #f4f4f4;
+$LIGHT_GREY: #ebebeb;
+$DARK_GREY: #565655;
+$very_dark: #1d1c1b;
+
+$default: (max-width 1199px);
+$custom-width: (max-width 1024px);
+$tablet-wide: (max-width 991px);
+$tablet: (max-width 767px);
+$smartphone: (max-width 543px);
+$smar-small: (max-width 320px);
+
+$transition: cubic-bezier(.165, .840, .440, 1);
+$trans-def: all .25s ease-in-out;
+
+$social: (
+  email: $PRIMARY_COLOR,
+	facebook: #3b5998,
+	facebook-messenger: #0084ff,
+	google-plus: #dd4b39,
+	linkedin: #007bb6,
+	pinterest: #cb2027,
+	twitter: #00aced,
+	instagram: #3f729b,
+	vk: #45668e,
+	tumblr: #35465c,
+	xing: #cfdc00,
+	soundcloud: #f80,
+	dribbble: #ea4c89,
+	youtube: #e52d27,
+	spotify: #7ab800,
+	behance: #1769ff,
+	deviantart: #4e6252,
+	vimeo: #1ab7ea,
+	flickr: #0063dc,
+	rss: #f26522,
+	whatsapp: #25d366,
+	twitch: #6441a5,
+	fivehundred: #0099e5,
+	bandcamp: #629aa9,
+	github: #4078c0,
+	codepen: #fcd000
+);
+
+@mixin input-placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
