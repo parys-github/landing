@@ -1,11 +1,11 @@
 # Single scrolled landing page - WP Theme
 
-![alt text](https://github.com/parys-github/landing/blob/master/screenshot.png "Screenshot")
+![alt text](https://www.landing.vajracode.net/wp-theme/landing/screenshot.jpg "Screenshot")
 
->Here you have a scrolled WordPress theme as a single landing page.
+>You can find here a scrolled **WordPress** theme as a single landing page.
 This is a popular single page but in this case, you have a custom template that loads independently all pages from the WordPress dashboard as one scrolled content. Full keyboard control.
 
-The template does not use any fancy plugins or heavy libraries. Just Advanced Custom Fields and then all pages as sections load only once. Additionally, a maximum optimized code withGulpmakes the whole web page load very fast.
+The template does not use any fancy plugins or heavy libraries. Just **Advanced Custom Fields** and then all pages as sections load only once. Additionally, a maximum optimized code with **Gulp** makes the whole web page load very fast.
 
 Implemented libraries:
 * jQuery
