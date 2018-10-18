@@ -68,7 +68,7 @@ gulp
 │   │        ├── README.md         # Instruction file
 │   │        ├── screenshot.png    # Theme screenshot thumbnail
 │   │        └── style.css         # Default WP theme style info
-├── wp-inclides/                   # Wordpress structure
+├── wp-includes/                   # Wordpress structure
 ```
 
 ## Additional documentation
