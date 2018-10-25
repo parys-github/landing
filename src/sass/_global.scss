@@ -228,7 +228,7 @@ body {
 
 .header-logo {
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
   left: 20px;
   transition: width 500ms, bottom 500ms;
   width: 140px;
@@ -250,7 +250,8 @@ body {
   position: relative;
   height: 100%;
   ul {
-    transition: bottom 500ms, right 1200ms;
+    transition: bottom .4s,right 1s;
+/* transition-duration: .5s;*/
     position: absolute;
     bottom: 36px;
     left: 0;
@@ -417,7 +418,7 @@ body {
 .header-min {
   .header-logo {
     width: 96px;
-    bottom: -12px;
+    bottom: 8px;
   }
   .header-lang, .header-social {
     opacity: 0;
@@ -798,10 +799,10 @@ div#Introduction {
     transition-duration: .3s;
   }
   div:nth-child(2) {
-    transition-duration: .6s;
+    transition-duration: .55s;
   }
   div:nth-child(3) {
-    transition-duration: 1.2s;
+    transition-duration: 1.1s;
   }
 }
 

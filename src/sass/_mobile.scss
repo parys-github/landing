@@ -38,6 +38,14 @@
     height: 50px;
     text-align: initial;
     background: none;
+    .header-logo {
+      bottom: 9px;
+    }
+    &.header-min {
+      .header-logo {
+        bottom: 1px;
+      }
+    }
   }
   .header-mob {
     display: block;
@@ -52,10 +60,10 @@
   }
   .header-ham {
     position: absolute;
-    top: 15px;
-    right: 18px;
-    width: 20px;
-    height: 20px;
+    top: 14px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
     display: block;
     cursor: pointer;
     div {
@@ -152,6 +160,48 @@
       opacity: 1;
     }
   }
+  .footer {
+    position: relative;
+    height: 150px;
+    .align {
+      padding-top: 10px;
+      height: 100%;
+      .footer-links {
+        position: relative;
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        p {
+          float: none;
+          width: 100%;
+          text-align: center;
+          a {
+            width: auto;
+            padding: 0 0 10px;
+            margin: 0 10px;
+            display: inline-block;
+
+          }
+        }
+      }
+      .footer-soc {
+        position: relative;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .footer-text {
+        position: relative;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -173,7 +223,7 @@
     }
   }
   .footer .align {
-    padding: 20px;
+    padding: 10px 15px;
   }
   .footer-links a {
     padding: 0;
@@ -184,15 +234,17 @@
   .footer-text {
     font-size: 12px;
     margin-top: 30px;
+    padding-top: 15px;
   }
   .footer-soc {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    margin-bottom: 15px;
   }
   body.rtl .footer-soc {
-    right: auto;
-    left: 20px;
+    width: 100%;
+    top:0;
+    text-align: center;
   }
   /* FS PAGE */
   .ScrollPage {
