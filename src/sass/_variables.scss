@@ -23,6 +23,7 @@ $smar-small: (max-width 320px);
 
 $transition: cubic-bezier(.165, .840, .440, 1);
 $trans-def: all .25s ease-in-out;
+$trans-long: all .5s ease-in-out;
 
 $social: (
   email: $PRIMARY_COLOR,

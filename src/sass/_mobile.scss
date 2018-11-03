@@ -40,10 +40,11 @@
     background: none;
     .header-logo {
       bottom: 9px;
+      left: 14px;
     }
     &.header-min {
       .header-logo {
-        bottom: 1px;
+        bottom: 4px;
       }
     }
   }
@@ -75,6 +76,11 @@
       transform: translateY(-50%);
       transition: all 500ms;
     }
+    &:hover {
+      div {
+        background: $yellow;
+      }
+    }
     &.active div {
       height: 4px;
     }
@@ -87,6 +93,7 @@
       }
     }
     &.active div {
+      background: $yellow;
       &:nth-child(1) {
         transform: rotate(45deg);
       }
@@ -192,6 +199,7 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
+        top: 0;
       }
       .footer-text {
         position: relative;
@@ -199,6 +207,32 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 979px) {
+  body {
+    .parts {
+      .ScrollPage {
+        padding: 0 30px;
+        .align {
+          padding: 80px 0 40px;
+          .list-table {
+            td:nth-child(2), td:nth-child(4) {
+              padding-right: 50px;
+            }
+          }
+          .prin-table {
+            .prin-cell {
+              font-size: 20px;
+              width: auto;
+              padding: 0 30px 0 0;
+            }
+          }
+        }
       }
     }
   }
@@ -227,9 +261,12 @@
   }
   .footer-links a {
     padding: 0;
-    font-size: 17px;
+    font-size: 16px;
     display: block;
     margin-bottom: 10px;
+    &.trigger-custom {
+      font-size: 16px;
+    }
   }
   .footer-text {
     font-size: 12px;
@@ -238,12 +275,11 @@
   }
   .footer-soc {
     position: absolute;
-    top: 0;
     margin-bottom: 15px;
   }
   body.rtl .footer-soc {
     width: 100%;
-    top:0;
+    top: 0;
     text-align: center;
   }
   /* FS PAGE */

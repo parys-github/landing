@@ -7,6 +7,12 @@ This is a popular single page but in this case, you have a custom template that 
 
 The template does not use any fancy plugins or heavy libraries. Just **Advanced Custom Fields** and then all pages as sections load only once. Additionally, a maximum optimized code with **Gulp** makes the whole web page load very fast.
 
+### Live Demo
+
+[www.landing.vajracode.net](https://www.landing.vajracode.net/ )
+
+Example pages and ACF json conf file available to download at demo website
+
 Implemented libraries:
 * jQuery
 * Swiper Slider
@@ -37,6 +43,7 @@ gulp
 * Extra WPML integration with (Arabic) RTL styles orientation
 * Swiper Slider integrated with WP Pages
 * Animations with AnimateCSS
+* Scroll Indicator **NEW**
 * Customisable modals
 * Mobile view compatible
 
@@ -92,10 +99,5 @@ gulp
 [Pictures sample taken from free platform UNSPLASH.COM](https://unsplash.com/)
 
 
-### Demo
-
-[www.landing.vajracode.net](https://www.landing.vajracode.net/)
-
-Example pages and ACF json conf file available to download at demo website
 
 

@@ -1,4 +1,50 @@
 $(document).ready(function () {
+
+// Circle Scroll indicator
+
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() > 5 ) {
+      $('.progress-indicator').fadeTo(.95, 1);
+    } else {
+      $('.progress-indicator').fadeTo(.12, 0);
+    }
+  });
+
+  (function () {
+    var $w = $(window);
+    var $circ = $('.animated-circle');
+    var $progCount = $('.progress-count');
+    var $prog2 = $('.progress-indicator-2');
+
+    var wh, h, sHeight;
+
+    function setSizes() {
+      wh = $w.height();
+      h = $('body').height();
+      sHeight = h - wh;
+    }
+
+    setSizes();
+
+    $w.on('scroll', function () {
+      var perc = Math.max(0, Math.min(1, $w.scrollTop() / sHeight));
+      updateProgress(perc);
+    }).on('resize', function () {
+      setSizes();
+      $w.trigger('scroll');
+    });
+
+    function updateProgress(perc) {
+      var circle_offset = 69 * perc;
+      $circ.css({
+        "stroke-dashoffset": 69 - circle_offset
+      });
+      $progCount.html(Math.round(perc * 100) + "%");
+
+      $prog2.css({width: perc * 100 + '%'});
+    }
+  }());
+
   // Shortcuts swiper links
 
   $(".swiper-container").each(function () {
@@ -251,5 +297,4 @@ $(function () {
     transitionOut: "fadeOutDown"
   });
 });
-
 

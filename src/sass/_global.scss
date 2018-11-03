@@ -19,6 +19,11 @@ body {
   a {
     transition: all .25s ease-in-out;
   }
+  .keys-icon {
+    width: 38px;
+    position: absolute;
+    margin-left: 10px;
+  }
   .mouse_scroll {
     display: inline-block;
     position: relative;
@@ -250,8 +255,8 @@ body {
   position: relative;
   height: 100%;
   ul {
-    transition: bottom .4s,right 1s;
-/* transition-duration: .5s;*/
+    transition: bottom .4s, right 1s;
+    /* transition-duration: .5s;*/
     position: absolute;
     bottom: 36px;
     left: 0;
@@ -1370,5 +1375,52 @@ body {
         }
       }
     }
+  }
+}
+
+// Circle scroll indicator
+body {
+  .progress-indicator {
+    transform: scale(.6);
+    display: none;
+    position: fixed;
+    top: -22px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+  }
+  .progress-count {
+    display: none;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.73);
+    text-rendering: optimizeLegibility;*/
+  }
+
+  svg {
+    position: absolute;
+  }
+  circle {
+    fill: rgba(120, 114, 73, 0.55);
+  }
+
+  svg .animated-circle {
+    fill: transparent;
+    stroke-width: 22px;
+    stroke: rgba(255, 255, 255, 0.95);
+    /*stroke: rgba($yellow, 0.95);*/
+    stroke-dasharray: 69;
+    stroke-dashoffset: 69;
   }
 }
