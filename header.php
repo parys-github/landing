@@ -66,6 +66,7 @@
         gtag('config', 'UA-41020127-19');
     </script>
 
+
     <!-- Custom Scroll 100vh step - REMOVE IF YOU DO NOT WANT TO USE ON ALL DEVICES-->
     <script>
         $(window).ready(function () {

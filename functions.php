@@ -12,6 +12,11 @@ function SITE() {
 wp_enqueue_style( 'main', get_template_directory_uri() . '/build/css/app.css',false,'1.1','all');
 wp_enqueue_script( 'main', get_template_directory_uri() . '/build/js/app.js', array(), '1.0.0', true );
 
+// disable for posts
+add_filter('use_block_editor_for_post', '__return_false', 10);
+
+// disable for post types
+add_filter('use_block_editor_for_post_type', '__return_false', 10);
 
 class SiteObject {
 

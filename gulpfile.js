@@ -20,8 +20,7 @@ var javascript = [
   "landing/src/scripts/vendors/jquery.scrollify.js",
   "landing/src/scripts/vendors/swiper.min.js",
   "landing/src/scripts/vendors/isInViewport.js",
-  "landing/src/scripts/vendors/iziModal.min.js",
-  "landing/src/scripts/app.js"
+  "landing/src/scripts/vendors/iziModal.min.js"
 ];
 
 //  Compiles SASS, autoprefixes and JS then minifies production build
