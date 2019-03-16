@@ -8,6 +8,30 @@ html {
       text-shadow: 0 0 2px black;
     }
   }
+  .nestedpages {
+    .ui-sortable {
+      .page-row {
+        ol {
+          li {
+            .row-inner {
+              a {
+                .title {
+                  padding-left: 30px;
+
+                }
+                &:hover {
+                  .title {
+                    padding-left: 0;
+                  }
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   margin-top: 0 !important;
   body {
     padding: 0;
@@ -21,8 +45,18 @@ body {
   }
   .keys-icon {
     width: 38px;
-    position: absolute;
+    height: auto;
     margin-left: 10px;
+  }
+  .swipe-icon {
+    height: 40px;
+    width: auto;
+    margin-left: 5px;
+  }
+  .keys-dark, .keys-light {
+    padding: 7px 7px 0 0;
+    width: 68px;
+    height: auto;
   }
   .mouse_scroll {
     display: inline-block;
@@ -844,7 +878,7 @@ div#Introduction {
 .PageLocation {
   color: #272624;
   .text-cell {
-    max-width: 400px;
+    max-width: 460px;
   }
 }
 

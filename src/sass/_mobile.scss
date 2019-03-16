@@ -34,6 +34,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .parts {
+    .progress-indicator {
+      top: auto;
+      bottom: -20px;
+    }
+  }
   .header {
     height: 50px;
     text-align: initial;
