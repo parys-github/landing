@@ -1,6 +1,6 @@
 {
   "name": "landing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Landing Scrolled WordPress Theme Automation With Gulp",
   "keywords": [
     "vajracode",
@@ -13,22 +13,22 @@
   "author": "Marek Parys",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.2.0",
     "gulp-debug": "^4.0.0",
-    "gulp-inject": "^4.3.2",
+    "gulp-inject": "^5.0.5",
     "gulp-install": "^1.1.0",
-    "gulp-livereload": "^4.0.0",
+    "gulp-livereload": "^4.0.2",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sass-glob": "^1.0.9",
-    "gulp-sourcemaps": "^2.6.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglifyjs": "^0.6.2"
   },
   "dependencies": {
-    "es6-promise": "^4.2.4"
+    "es6-promise": "^4.2.8"
   }
 }
