@@ -81,9 +81,9 @@ gulp
 ```
 
 ## Additional download
-[Download last updated theme version](https://www.landing.vajracode.net/wp-content/uploads/2020/04/landing_20_04_06.zip)
+[Download last updated theme version](https://www.landing.vajracode.net/wp-content/uploads/2020/07/landing-1.0.1.update.zip)
 
-[Download last updated plugins package](https://www.landing.vajracode.net/wp-content/uploads/2020/04/plugins_20_04_06.zip)
+[Download last updated plugins package](https://www.landing.vajracode.net/wp-content/uploads/2020/07/plugins-update.zip)
 
 ## Additional documentation
 
